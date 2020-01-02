@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-todolists/static/css/main.bc20196a.chunk.css",
+    "main.js": "/react-todolists/static/js/main.6a9d56bf.chunk.js",
+    "main.js.map": "/react-todolists/static/js/main.6a9d56bf.chunk.js.map",
+    "runtime~main.js": "/react-todolists/static/js/runtime~main.f8686e04.js",
+    "runtime~main.js.map": "/react-todolists/static/js/runtime~main.f8686e04.js.map",
+    "static/js/2.af5ddad4.chunk.js": "/react-todolists/static/js/2.af5ddad4.chunk.js",
+    "static/js/2.af5ddad4.chunk.js.map": "/react-todolists/static/js/2.af5ddad4.chunk.js.map",
+    "index.html": "/react-todolists/index.html",
+    "precache-manifest.e9fda8b18cfc3f793fc2a5fd0d6c9673.js": "/react-todolists/precache-manifest.e9fda8b18cfc3f793fc2a5fd0d6c9673.js",
+    "service-worker.js": "/react-todolists/service-worker.js",
+    "static/css/main.bc20196a.chunk.css.map": "/react-todolists/static/css/main.bc20196a.chunk.css.map",
+    "static/media/styles.css": "/react-todolists/static/media/bk.ccca7275.jpg"
+  }
+}
