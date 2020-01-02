@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf6b1dbf40b4b5627965775a01fe1675",
+    "revision": "95a8a77212bbdc11970ddc29e3d564cd",
     "url": "/react-todolists/index.html"
   },
   {
-    "revision": "a5f3ffec11a740f14d6b",
-    "url": "/react-todolists/static/css/main.bc20196a.chunk.css"
+    "revision": "1ee0d81ad354fd678e5e",
+    "url": "/react-todolists/static/css/main.ec331f01.chunk.css"
   },
   {
     "revision": "fb3cf3c536022a8b89ef",
     "url": "/react-todolists/static/js/2.af5ddad4.chunk.js"
   },
   {
-    "revision": "a5f3ffec11a740f14d6b",
-    "url": "/react-todolists/static/js/main.6a9d56bf.chunk.js"
+    "revision": "1ee0d81ad354fd678e5e",
+    "url": "/react-todolists/static/js/main.2ba8cc66.chunk.js"
   },
   {
     "revision": "8b1975139fff88957869",
