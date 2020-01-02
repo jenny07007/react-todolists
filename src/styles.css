@@ -35,7 +35,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   margin-left: auto;
   margin-right: auto;
   -webkit-box-shadow: inset 0 0 3px white;
@@ -67,15 +66,6 @@ p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.credit {
-  color: white;
-  display: inline;
-  border-bottom: none;
-  margin: 50vh auto 0 auto;
-  font-size: .7rem;
-  color: rgba(153, 145, 227, .6);
-}
-
 a:link,
 a:visited {
   color: rgba(153, 145, 227, .6);
@@ -86,13 +76,9 @@ form {
 }
 
 .input-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 2em;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -181,4 +167,60 @@ i.fas {
 .completed {
   text-decoration: line-through;
   color: gray;
+}
+
+
+@media screen and (max-width: 414px) {
+  body {
+    background-image: linear-gradient(-225deg,
+        #ac32e4 0%,
+        #7918f2 48%,
+        #4801ff 100%);
+    align-items: flex-start;
+    overflow: hidden;
+  }
+
+  .todo-bk {
+    width: 20em;
+    margin-top: 2em;
+    transition: all .5s ease-out;
+  }
+
+  li {
+    width: 80%;
+  }
+
+  .icons {
+    margin-right: 2em;
+  }
+
+  .input-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #task {
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 1em;
+  }
+
+  .btn-add {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  body {
+    background-image: linear-gradient(-225deg,
+        #ac32e4 0%,
+        #7918f2 48%,
+        #4801ff 100%);
+  }
+
+  .todo-bk {
+    transition: all .3s ease-out;
+
+  }
 }

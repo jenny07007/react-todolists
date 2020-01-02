@@ -1,7 +1,7 @@
 {
   "name": "todos",
   "version": "1.0.0",
-  "description": "",
+  "description": "An react todolist app ",
   "keywords": [],
   "homepage": "https://jenny07007.github.io/react-todolists",
   "main": "src/index.js",

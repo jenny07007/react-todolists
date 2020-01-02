@@ -30,7 +30,7 @@ export class TodoForm extends Component {
             value={this.state.task}
             placeholder="New Todo"
           />
-          <button>ADD TODO</button>
+          <button className="btn-add">ADD TODO</button>
         </div>
       </form>
     );
