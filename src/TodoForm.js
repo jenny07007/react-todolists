@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import uuid from "uuid";
+import { v4 as uuid } from "uuid";
 
 export class TodoForm extends Component {
   state = { task: "" };
 
-  handleChange = e => {
+  handleChange = (e) => {
     this.setState({
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
-  handlesubmit = e => {
+  handlesubmit = (e) => {
     e.preventDefault();
     const newTask = { ...this.state, id: uuid(), completed: false };
     if (!this.state.task) return;
